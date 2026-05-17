@@ -1,0 +1,17 @@
+# Nama Kelas (Oren)
+LineFollower	KEYWORD1
+
+# Nama Fungsi (Oren Cair / Coklat)
+begin	KEYWORD2
+readSensors	KEYWORD2
+followLineToJunction	KEYWORD2
+turnLeft90	KEYWORD2
+turnRight90	KEYWORD2
+turn180	KEYWORD2
+
+# Pembolehubah Awam (Pilihan)
+L2	LITERAL1
+L1	LITERAL1
+C	LITERAL1
+R1	LITERAL1
+R2	LITERAL1
