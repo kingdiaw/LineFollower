@@ -58,11 +58,6 @@ Sistem ini berkongsi bas I2C standard ESP32 pada pin **SDA (GPIO 21)** dan **SCL
 ### `LineFollower(uint8_t addr, TwoWDController* motorCtrl)`
 *Constructor* untuk mengisytiharkan objek pembaca sensor. Menerima alamat I2C sensor dan rujukan (*pointer*) objek pembantu motor.
 
-```
-
-```text
-README.md successfully generated.
-
 ```cpp
 LineFollower lineRobot(0x21, &robot);
 
