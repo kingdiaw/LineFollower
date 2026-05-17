@@ -1,6 +1,4 @@
-# LineFollower
-```python
-readme_content = """# LineFollower Library for ESP32
+# LineFollower Library for ESP32
 
 Library aras tinggi (*high-level*) untuk memudahkan kawalan pergerakan robot *line follower* berasaskan rangkaian grid pada platform ESP32. Library ini direka khusus untuk mengawal pergerakan robot secara berurutan (*sequential / blocking*) bagi memudahkan pembinaan laluan kompleks tanpa memerlukan logik *State Machine* yang rumit di dalam sketch utama.
 
