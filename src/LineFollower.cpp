@@ -34,6 +34,21 @@ void LineFollower::readSensors() {
   }
 }
 
+// ====================================================
+// FUNGSI BARU: Dapatkan status penderia individu
+// ====================================================
+int LineFollower::getSensorState(int sensorIndex) {
+  // Nota: Membaca terus dari pembolehubah awam yang telah dikemaskini oleh readSensors()
+  switch (sensorIndex) {
+    case SENSOR_L2: return L2;
+    case SENSOR_L1: return L1;
+    case SENSOR_C:  return C;
+    case SENSOR_R1: return R1;
+    case SENSOR_R2: return R2;
+    default:        return -1; // Ralat: Indeks tidak wujud
+  }
+}
+
 // FUNGSI 1: Ikut Garisan
 void LineFollower::followLineToJunction(int targetJunctions) {
   int count = 0;
